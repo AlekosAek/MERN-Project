@@ -25,10 +25,9 @@ after att the terminal npm run dev
 npm i nodemon -D  (with this whenever we make a update in the name att the localhost is restarting for us)
 
 
-app.get("/"(req,res)=>{
+app.get("/",(req,res)=>{
   res.send("Server is ready");
 })
-
 IN the mongo db create a new project
 We write the name that we want
 Create Project
